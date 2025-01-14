@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = bmudterraformremote
+    bucket         = "bmudterraformremote"
     region         = "eu-west-2"
     key            = "Github-Runner-TF/terraform.tfstate"
     encrypt        = true
